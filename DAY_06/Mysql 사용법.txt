@@ -30,7 +30,7 @@ alter table 테이블이름 drop 컬럼이름;
 alter table 테이블이름 change column 원래컬럼이름 바뀔컬럼이름 자료형 제약조건;
 	컬럼 수정
 
-insert into 테이블이름(컬럼1, 컬럼2, 컬럼3...) values('값1','값2','값3'...);
+insert into 테이블이름(컬럼1, 컬럼2, 컬럼3...) values('값1','값2','값3'...); 		*(int 제약조건에선 ' ' 안넣음)*
 	값 삽입
 
 update 테이블이름 set 컬럼1='값1' where 컬럼2='값2';
