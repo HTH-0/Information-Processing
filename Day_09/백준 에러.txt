@@ -1,0 +1,24 @@
+1. invalid method declaration; return type required
+
+	> 리턴 타입을 쓰지 않아 메소드의 선언이 잘못된 경우에 발생하는 에러이므로 에러가 발생한 메소드를 확인해보고 리턴 타입에 맞게 적어주어야 합니다.
+
+	> public static void main (String[] args)  에서 void 빠뜨림
+
+
+2. Cannot find symbol
+
+	> import java.util.Scanner;   에서 S를 소문자로 표기
+	> String = sc.nextLine  뒤에 (); 안붙임
+
+3. missing method body, or declare abstract
+	> static void main(String[] args)   다음 ; 붙임
+
+4. <identifier> expected
+	>import 뒤에 . 넣고 java.util.Scanner; 넣음
+	> new.Scanner(System.in); new 뒤에 . 넣음
+
+5. 기타
+	> 이상한거 출력시키지 않기
+
+6. java.util.InputMismatchException
+	> 기입 할 정수값보다 작은 키워드 선택
