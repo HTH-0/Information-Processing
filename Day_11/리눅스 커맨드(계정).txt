@@ -35,10 +35,13 @@
 	 adduser -G test10 test30
 
 4. test40 계정 생성 시 홈디렉토리 경로를 /export/test40 으로 지정
-	 adduser -d /export/test40 test40
+	mkdir /export 
+	adduser -d /export/test40 test40
 
 5. test50 계정 생성 시 스컬경로를 /skel2 로 하고 test50 홈디렉토리에 test50이 생성되도록
-	 adduser -mk /skel2 -d /home/test50 test50
+	cp -r /etc/skel /skel2
+	touch /skel2/test50 
+	adduser -mk /skel2 test50
 
 6. test60 계정 생성 시 쉘을 /bin/ksh로 설정
 	adduser -s /bin/ksh test60
