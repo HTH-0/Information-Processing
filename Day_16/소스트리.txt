@@ -1,0 +1,11 @@
+IDE 	- Eclipse (JAVA, JSP/SERVLET)
+	- STS3(전자정부 Framework)
+	- Intellij
+	- Vscode
+CMD SourceTree 깃크라켄
+
+GIT 관련 기본 기술 git add, git commit, git push ...
+git stash (임시저장)
+git rebase
+git rebase merge(git tree 깔끔하게 하는 작업)
+git flow
